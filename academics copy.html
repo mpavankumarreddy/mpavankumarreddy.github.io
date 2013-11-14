@@ -1,0 +1,241 @@
+<html>
+  <head>
+    <title>Pavan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+		@font-face
+		{
+			font-family: MySegoe;
+			src: url(./SegoeWPN-Light.ttf);
+		}
+		
+		@font-face{
+			font-family:HelveticaNeueUltraLigExt;
+			src: url(./HelveticaNeueUltraLight/HelveticaNeue-UltraLigExt.otf);
+		}
+			
+		@font-face
+		{
+			font-family:MyTypewriter;
+			src: url(./com_american_typewriter_light.ttf);
+		}
+		
+		@font-face
+		{
+			font-family:MyAdobe;
+			src: url(./AdobeGaramondPro.ttf);
+		}
+		
+		#top{
+			width:100%;
+			height:15px;
+			background-color: #242625;
+			position:fixed;
+			top:0;
+		}
+		#bottom{
+			width:100%;
+			height:15px;
+			background-color: #242625;
+			position:fixed;
+			bottom:0;
+		}
+		
+		#content{
+			width: 100%;
+			min-height: 100%;
+			border: 15px solid #242625;	
+			position: relative;	
+		}
+		
+		.wrapper{
+			width: 100%;
+			min-height: 100%;	
+		}
+		
+		#wrapper{
+			padding: 100px 0 20px;
+			background-color: rgb(229,229,229);
+		}
+		
+		#title{
+			font-family: HelveticaNeueUltraLigExt;
+			font-size: 20;
+			letter-spacing: 12;
+			float: left;
+		}
+		
+		#nav-list{
+			font-family: MySegoe;
+			font-size: 20px;
+			text-align: right;
+			padding: 0;
+		}
+		
+		#nav-list ul li{
+			line-height: 1;
+			height: 30px;
+		}
+		
+		#nav-list ul li.active a{
+			background-color: transparent;
+			border-radius: 0;
+			color: #B6B6B6;
+		}
+		
+		#nav-list ul li a{
+			background-color: transparent;
+			border-radius: 0;
+			color: black;
+			margin-top: 0;
+		}
+		
+		#nav-list ul li a:hover{
+			font-size: 21px;
+		}
+		
+		#nav-list ul li.active a:hover{
+			font-size: 20px;
+		}
+		
+		#line{
+			margin: 30px 0 20px 0;	
+		}
+		
+		#academic-content{
+			font-family: MyAdobe;
+		}
+		
+		#academic-content h2,h3	{
+			text-align: left;
+			font-family: MyTypewriter;
+		}
+		
+		#academic-content li{
+			text-align: left;
+			font-family: MyAdobe;
+			font-size: 17px;	
+		}
+		
+		#line2{
+			margin: 100px 0 20px 0;
+		}
+		
+		#copyright{
+			text-align: center;	
+		}
+		
+		footer em{
+			opacity: 0.3;	
+		}
+	</style>
+  </head>
+  <body>
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="./jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Optionally enable responsive features in IE8. Respond.js can be obtained from https://github.com/scottjehl/Respond -->
+    <script src="js/respond.js"></script>
+    
+    <div id="top"></div>
+    <div id="bottom"></div>
+    
+    <div id="content">
+    	<div class="wrapper" id="wrapper">
+        	<div class="container">
+            	<div class="row" style="background-color: white; padding: 20px 5px 25px 5px; margin: 0px 10px 0px 10px; box-shadow: 0px 0px 6px #888888;">
+                	<div class="col-lg-6 col-sm-6 col-12">
+                    	<div id="title">
+                            <p>PAVANKUMAR <br />REDDY  M</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 col-12 col-lg-offset-3 col-sm-offset-3" id="nav-list">
+                    	<ul class="nav nav-pills nav-stacked">
+                        	<li><a href="index.html">Home</a></li>
+                            <li class="active"><a href="#">Academics</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">CV</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="line">
+                	<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                </div>
+                
+                <!--This containes all the main content-->
+                
+                <div class="row" id="academic-content">
+                	<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0 col-sm-offset-0">
+                    <!-- The course work -->
+                    	<h2>Course Work </h2>
+                        <div class="row" id="core-courses">
+                        	<div class="col-11 col-lg-4 col-sm-4" style="min-height:250px; background-color: white; padding: 20px 5px 25px 15px; margin: 0px 10px 20px 10px; box-shadow: 0px 0px 6px #888888;">
+                        	<h3>Mathematics</h3>
+                                <ul>
+                                    <li>Calculus of One Variable</li>
+                                    <li>Calculus of Multiple Variables</li>
+                                    <li>Linear Algebra and Numerical Analysis</li>
+                                    <li>Probability and Random Processes</li>
+                            	</ul>
+                            </div>
+                            
+                            <div class="col-11 col-lg-6 col-sm-6 col-lg-offset-1" style="min-height:250px; background-color: white; margin: 0px 10px 20px 10px; padding: 20px 5px 25px 15px; box-shadow: 0px 0px 6px #888888;">
+                        		<h3>Basic Courses</h3>
+                                <div class="row" id="academic-content">
+                					<div class="col-12 col-lg-6 col-sm-6">
+                                        <ul>
+                                            <li>Physics I and II</li>
+                                            <li>Engineering Drawing</li>
+                                            <li>Introduction to Engineering Design I, II</li>
+                                            <li>Thermodynamics</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-lg-6 col-sm-6">
+                                        <ul>
+                                            <li>Applied Mechanics</li>
+                                            <li>Chemistry (Quantum, Thermodynamics, Organic and Inorganic)</li>
+                                            <li>Introduction to C</li>
+                                            <li>Introduction to Biotechnology</li>
+                                        </ul>
+                                    </div>
+                            	</div>
+                            </div>
+            			</div>
+                        
+                    <!---------------------->
+                    </div>
+                </div>
+                
+               
+            </div>
+            
+        <footer>
+        	<div class="container">
+             <div class="row" id="line2">
+                <div class="col-12 col-lg-4 col-sm-4 col-lg-offset-4" style="background-color: #CCC;"></div>
+                </div>
+                
+                <div class="row" id="copyright">
+                	<div class="col-12 col-lg-4 col-sm-4 col-lg-offset-4">
+                    	<p><a href="#">&copy; Copyright 2013 Pavankumar Reddy M</a></p>
+                        <p><em>Inspired by <a href="http://www.jacinabox.com.au">jacinabox</a></em></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </div>
+    
+    <div id="top"></div>
+    <div id="bottom"></div>
+
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<html>
+  <head>
+    <title>Pavan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+    <!-- Bootstrap -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <style type="text/css">
+		@font-face
+		{
+			font-family: MySegoe;
+			src: url(./SegoeWPN-Light.ttf);
+		}
+		
+		@font-face{
+			font-family:HelveticaNeueUltraLigExt;
+			src: url(./HelveticaNeueUltraLight/HelveticaNeue-UltraLigExt.otf);
+		}
+			
+		@font-face
+		{
+			font-family:MyTypewriter;
+			src: url(./itc-american-typewriter-lt-medium-alternate.ttf);
+		}
+		
+		@font-face
+		{
+			font-family:MyAdobe;
+			src: url(./AdobeGaramondPro.ttf);
+		}
+		
+		#top{
+			width:100%;
+			height:15px;
+			background-color:black;
+			position:fixed;
+			top:0;
+		}
+		#bottom{
+			width:100%;
+			height:15px;
+			background-color:black;
+			position:fixed;
+			bottom:0;
+		}
+		
+		#content{
+			width: 100%;
+			min-height: 100%;
+			border: 15px solid #242625;	
+			position: relative;	
+		}
+		
+		.wrapper{
+			width: 100%;
+			min-height: 100%;	
+		}
+		
+		#wrapper{
+			padding: 100px 0 20px;	
+		}
+		
+		#title{
+			font-family: HelveticaNeueUltraLigExt;
+			font-size: 20;
+			letter-spacing: 12;
+			float: left;
+		}
+		
+		#nav-list{
+			font-family: MySegoe;
+			font-size: 20px;
+			text-align: right;
+			padding: 0;
+		}
+		
+		#nav-list ul li{
+			line-height: 1;
+			height: 30px;
+		}
+		
+		#nav-list ul li.active a{
+			background-color: transparent;
+			border-radius: 0;
+			color: #B6B6B6;
+		}
+		
+		#nav-list ul li a{
+			background-color: transparent;
+			border-radius: 0;
+			color: black;
+			margin-top: 0;
+		}
+		
+		#nav-list ul li a:hover{
+			font-size: 21px;
+		}
+		
+		#nav-list ul li.active a:hover{
+			font-size: 20px;
+		}
+		
+		#line{
+			margin: 30px 0 20px 0;	
+		}
+		
+		#home-content h1{
+			text-align: right;
+			font-family: MyAdobe;	
+		}
+		
+		#home-content p{
+			text-align: right;
+			font-family: MyAdobe;
+			font-size: 20px;	
+		}
+		
+		#line2{
+			margin: 100px 0 20px 0;
+		}
+		
+		#copyright{
+			text-align: center;	
+		}
+		
+		footer em{
+			opacity: 0.3;	
+		}
+	</style>
+  </head>
+  <body>
+
+    <!-- JavaScript plugins (requires jQuery) -->
+    <script src="./jquery-1.10.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Optionally enable responsive features in IE8. Respond.js can be obtained from https://github.com/scottjehl/Respond -->
+    <script src="js/respond.js"></script>
+    
+
+    
+    <div id="content">
+    	<div class="wrapper" id="wrapper">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-6 col-sm-6 col-12">
+                    	<div id="title">
+                            <p>PAVANKUMAR <br />REDDY  M</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-3 col-12 col-lg-offset-3 col-sm-offset-3" id="nav-list">
+                    	<ul class="nav nav-pills nav-stacked">
+                        	<li class="active"><a href="#">Home</a></li>
+                            <li><a href="academics.html">Academics</a></li>
+                            <li><a href="projects.html">Projects</a></li>
+                            <li><a href="#">CV</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row" id="line">
+                	<div class="col-12 col-lg-6 col-sm-6 col-lg-offset-6" style="background-color: #CCC;"></div>
+                </div>
+                
+                <div class="row" id="home-content">
+                	<div class="col-12 col-lg-6 col-sm-6 col-lg-offset-6">
+                    	<h1>Hi, </h1>
+                        <p>I am a senior undergraduate at Indian Institute of Technology Madras.<br />
+                        I am a coding enthusisast and a web-developer.</p>
+                        <p>To download a copy of my resume in PDF form, click <a href="resume.pdf" target="blank">here</a>.</p>
+                    </div>
+                </div>
+                
+               
+            </div>
+            
+        <footer>
+        	<div class="container">
+             <div class="row" id="line2">
+                <div class="col-12 col-lg-4 col-sm-4 col-lg-offset-4" style="background-color: #CCC;"></div>
+                </div>
+                
+                <div class="row" id="copyright">
+                	<div class="col-12 col-lg-4 col-sm-4 col-lg-offset-4">
+                    	<p><a href="#">&copy; Copyright 2013 Pavankumar Reddy M</a></p>
+                        <p><em>Inspired by <a href="http://www.jacinabox.com.au">jacinabox</a></em></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+    </div>
+    
+        <div id="top"></div>
+    <div id="bottom"></div>
+
+  </body>
+</html>
