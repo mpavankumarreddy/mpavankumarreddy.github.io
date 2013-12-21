@@ -111,23 +111,23 @@
 			margin: 30px 0 20px 0;	
 		}
 		
-		#academic-content{
+		#project-content{
 			font-family: MyAdobe;
 		}
 		
-		#academic-content h1, h2,h3	{
+		#project-content h1, h2,h3	{
 			text-align: left;
 			//font-family: MyTypewriter;
             font-family: Lane;
 		}
 		
-		#academic-content li{
+		#project-content li{
 			text-align: left;
 			font-family: MyAdobe;
 			font-size: 17px;	
 		}
 
-        #academic-content p{
+        #project-content p{
             text-align: left;
             font-family: MyAdobe;
             font-size: 17px;    
@@ -172,8 +172,8 @@
                     	<ul class="nav nav-pills nav-stacked">
                         	<li><a href="index.html">Home</a></li>
                             <li><a href="academics.html">Academics</a></li>
-                            <li class="active"><a href="#">Projects</a></li>
-                            <li><a href="#">CV</a></li>
+                            <li class="active"><a href="projects.html">Projects</a></li>
+                            <li><a href="Pavan_CV.pdf" target="_blank">CV</a></li>
                             <li><a href="contact.html">Contact</a></li>
                         </ul>
                     </div>
@@ -184,11 +184,83 @@
                 
                 <!--This containes all the main content-->
                 
-                <div class="row" id="academic-content">
+                <div class="row" id="project-content">
 					<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0 col-sm-offset-0">
                         <h1>Projects</h1>
-                        <p>Later..............</p>
-					</div>
+                        <p>I have included some of the projects that I have been involved in during my college years, most recent ones first.</p>    
+                    </div>
+
+                    <div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0 col-sm-offset-0">
+
+						<div class="row" id="line">
+                			<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                		</div>
+
+                        <h3>Design and Characterisation of Standard Cell Library</h3>
+                        <p> <strong>Course:</strong> <em>Digital IC Design</em> <br />
+                        	<strong>Advisor:</strong> <em>Prof. Nitin Chandrachoodan</em> 
+                        </p>
+                        <p>
+                        	A standard cell is a group of transistor and interconnect structures that provides a boolean logic function or a storage function. For the purpose of the project we have been provided with a reference inverter of drive strength 1. Based on this we designed and characterized the following cells. The sizes of the transistors have been chosen to minimize the delays and parasitics.
+                        	<br /><br />
+                        	NAND2X1: 2 input NAND gate with drive strength 1<br />
+                        	NOR2X1: 2 input NOR gate with drive strength 1 <br />
+                        	DFFNEGX1: Negative edge triggered D-Flipflop with drive strength 1<br />
+                        	<br />
+
+                        	The above cells have been designed and the layout was done in Magic. We used SpiceOPUS tool for characterising purpose. The whole project has been successfully demonstrated in the 180 micron technology node. The project report can be found below. <br /><br /><a href="docs/DigitalICDesignFinalProjectReport.pdf" target="_blank" style="font-color:black">Project Report</a>
+                        </p>
+						
+						<div class="row" id="line">
+                			<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                		</div>
+
+                        <h3>Senior Thesis: <br />High Level Synthesis and Technology Mapping of Digital Circuits using ADDs (Assignment Decision Diagrams)</h3>
+                        <p> <strong>Advisor:</strong> <em>Prof. V. Kamakoti</em> </p>
+                        <p> I am currently with Prof. V. Kamakoti of Computer Science Department on synthesis of digital circuits using Assignment Decision Diagrams. My current work involves mapping of hardware description (in Chisel) into structures called Assignment Decision Diagrams(ADDs)&sup1; that is capable of representing circuit in its most parallel form independent of the language constructs. Introducing this new level of abstraction ensures that the resulting hardware synthesized from the ADD would be consistent and optimized for input descriptions with different groupings and orderings. </p>
+
+                        <div class="row" id="line">
+                			<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                		</div>
+
+                        <h3> Design and Characterisation of a High-Frequency Mixer </h3>
+                        <p> </em>Summer Internship at Texas Instrument R &amp; D (High Performance Analog Team) </em> <br /> <strong>Advisor:</strong>
+                        	<em>Rajendrakumar Joish</em> 
+                        </p>
+
+                        <p> I worked under Rajendrakumar Joish in the High Performance Analog Team. My research involved mixer design for high frequency applications for frequencies around 25GHz. After investigating various mixer topologies, I chose the CMOS active mixer based on Gilbert cell core followed by a trans-impedance amplifier as it could achieve high conversion gain and improved spur performance. I used Cadence Analog Virtuoso Design Environment for the Design. The whole layout can be found in the pictures below. The mixer has been successfully demonstrated with high linearity. The report for the project can be found <a href="docs/ti_report.pdf">here.</a><br /><br />
+
+                        <a href="docs/mixer_ckt.png" target="_blank">Mixer Layout</a>, <a href="docs/transimpedance_amp1.png" target="_blank">Transimpedance Amplifier</a>
+
+                    	</p>
+
+                        <div class="row" id="line">
+                			<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                		</div>
+
+                		
+                		<h3>Two-Stage Fully Differential OpAmp and Bandgap Reference Designs</h3>
+                		<p> <strong>Course:</strong> <em>Analog IC Design</em> <br />
+                        	<strong>Advisor:</strong> <em>Prof. Sankaran Aniruddhan</em> 
+                        </p>
+                        <p>
+                        	The problem statement consisted of two parts:
+
+							Design of a fully differential two stage op-amp with an PMOS input pair. Use this to make an inverting amplifier of gain 2 with a closed loop 3dB bandwidth of 5MHz. The inverting amplifier should drive a load of 2.5k&#8486; and 10pF. All loops are designed to have a phase margin of 60&deg;.
+
+							Design a bandgap reference with one 1x PNP (Current through it being 5μA) and an 8x PNP. The bandgap reference should be designed to have a zero temperature coefficient around 300K.
+
+
+							The whole project has been successfully demonstrated in the 180 micron technology node. The project report can be found below. <br /><br /><a href="docs/AnalogICDesignReport.pdf" target="_blank" style="font-color:black">Project Report</a>
+                        </p>
+
+                        <div class="row" id="line">
+                			<div class="col-12 col-lg-12 col-sm-12 col-lg-offset-0" style="background-color: #CCC;"></div>
+                		</div>
+
+                		
+
+                    </div>
 
                 </div>
                 
